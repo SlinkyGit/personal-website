@@ -85,17 +85,9 @@ export default function Home() {
             </a>
             , or reach out by email.
           </p>
-          {/* Obfuscated email: visible text is obfuscated, real mailto is assembled in JS */}
           <p className="text-gray-300">
             <a
-              href={"mailto:" + "nikhil.u.solanki" + "@" + "gmail.com"}
-              onClick={(e) => {
-                // assemble again on click to reduce exposure in static HTML
-                e.preventDefault();
-                const user = "nikhil.u.solanki";
-                const host = "gmail.com";
-                window.location.href = `mailto:${user}@${host}`;
-              }}
+              href="mailto:nikhil.u.solanki@gmail.com"
               className="underline hover:text-white"
             >
               nikhil [dot] u [dot] solanki [at] gmail [dot] com
