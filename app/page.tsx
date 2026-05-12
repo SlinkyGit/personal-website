@@ -65,7 +65,41 @@ export default function Home() {
         <section id="contact">
           <h3 className="text-2xl font-semibold mb-4">Contact</h3>
           <p className="text-gray-300">
-            You can find me on GitHub and LinkedIn, or reach out by email.
+            You can find me on{' '}
+            <a
+              href="https://github.com/SlinkyGit"
+              className="underline hover:text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://www.linkedin.com/in/nikhi1solanki/"
+              className="underline hover:text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            , or reach out by email.
+          </p>
+          {/* Obfuscated email: visible text is obfuscated, real mailto is assembled in JS */}
+          <p className="text-gray-300">
+            <a
+              href={"mailto:" + "nikhil.u.solanki" + "@" + "gmail.com"}
+              onClick={(e) => {
+                // assemble again on click to reduce exposure in static HTML
+                e.preventDefault();
+                const user = "nikhil.u.solanki";
+                const host = "gmail.com";
+                window.location.href = `mailto:${user}@${host}`;
+              }}
+              className="underline hover:text-white"
+            >
+              nikhil [dot] u [dot] solanki [at] gmail [dot] com
+            </a>
           </p>
         </section>
       </section>
