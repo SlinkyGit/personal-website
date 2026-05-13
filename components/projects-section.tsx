@@ -7,7 +7,7 @@ const projects = [
     title: "MCC Predict / MIQA",
     description:
       "Machine learning and merchant intelligence system for predicting Merchant Category Codes from transaction data, descriptors, and merchant metadata. Built data enrichment pipelines, feature engineering workflows, and LLM/API-assisted tools to improve classification accuracy and structure merchant information.",
-    link: "#",
+    link: "https://lakelandscientific.com/",
     tags: ["Machine Learning", "LLMs", "Data Pipelines", "APIs"],
   },
   {

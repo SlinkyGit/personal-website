@@ -66,7 +66,7 @@ export function HeroSection() {
           }}
         >
           <p>
-            I&apos;m a software engineer with a background in computer science and mathematics, 
+            I&apos;m a software/ML engineer with a background in computer science and mathematics, 
             currently pursuing my M.S. in Computer Science at Georgia Tech. I&apos;m drawn to 
             problems that combine strong engineering with data, machine learning, and real-world 
             product impact.
@@ -74,8 +74,9 @@ export function HeroSection() {
           <p className="text-muted-foreground">
             Recently, I&apos;ve been working on ML-driven transaction classification and merchant 
             intelligence at an early-stage fintech startup, along with side projects in 
-            reinforcement learning, time-series modeling, and applied machine learning. I&apos;m 
-            currently looking for software engineering, machine learning, or data-focused roles 
+            reinforcement learning, time-series modeling, and applied machine learning.
+
+            I&apos;m currently looking for software engineering, machine learning, or data-focused roles 
             where I can contribute, learn quickly, and build useful systems.
           </p>
         </div>
