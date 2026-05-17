@@ -142,7 +142,7 @@ return (
             <ArrowUpRight className="h-3.5 w-3.5 opacity-0 -translate-y-0.5 translate-x-0.5 group-hover:opacity-100 transition-all shrink-0" />
           </Link>
 
-          <Button
+          {/* <Button
             variant="ghost"
             size="sm"
             onClick={handleSummarize}
@@ -157,7 +157,7 @@ return (
                 Summarize
               </>
             )}
-          </Button>
+          </Button> */}
         </div>
 
         <p className="text-muted-foreground text-sm leading-relaxed">

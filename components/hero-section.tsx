@@ -26,6 +26,7 @@ export function HeroSection() {
           }}
         >
           Nikhil Solanki
+          
         </h1>
         
         <p 

@@ -100,3 +100,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Style the blinking cursor */
+.blinking-cursor {
+    font-weight: 100;
+    color: #2c3e50;
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
